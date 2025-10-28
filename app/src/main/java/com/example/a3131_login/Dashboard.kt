@@ -15,8 +15,7 @@ class Dashboard : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dashboard)
 
-        val tv_ucap: TextView = findViewById(R.id.tv_ucap)
-        val bt_link: Button = findViewById(R.id.btn_link)
+        /*val bt_link: Button = findViewById(R.id.btn_link)
         val url = "https://amikom.ac.id"
         val username = intent.getStringExtra("nama")
 
@@ -26,8 +25,6 @@ class Dashboard : AppCompatActivity() {
             intent.data= Uri.parse(url)
             intent.setPackage("com.android.chrome")
             startActivity(intent)
-        }
-
-        tv_ucap.text = "Selamat Datang $username"
+        }*/
     }
 }
